@@ -17,6 +17,8 @@ In a world where are constantly on the go, hustling with doubts and worries, why
 Welcome....
 </p>
 
-<!-- <% if @current_user.present? %>
+<% user = User.find session[:user_id]%>
+
+ <% if @current_user.present? %>
     <p>Logged in as: <%= @current_user.email  %></p>
-<% end %> -->
+<% end %> 
