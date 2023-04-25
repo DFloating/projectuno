@@ -1,0 +1,5 @@
+class Journal < ApplicationRecord
+
+end 
+
+

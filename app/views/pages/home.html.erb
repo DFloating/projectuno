@@ -1,3 +1,11 @@
+
+
+ <% if @current_user.present? %>
+    <p>Logged in as: <%= @current_user.email  %></p>
+<% end %> 
+
+<%= flash[:notice] %>
+
 <h1>Project Uno</h1>
 
 <h2>Welcome to Project Uno</h2>
@@ -17,8 +25,4 @@ In a world where are constantly on the go, hustling with doubts and worries, why
 Welcome....
 </p>
 
-<% user = User.find session[:user_id]%>
 
- <% if @current_user.present? %>
-    <p>Logged in as: <%= @current_user.email  %></p>
-<% end %> 
