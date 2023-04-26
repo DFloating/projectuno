@@ -1,2 +1,25 @@
-<h1>Journals#show</h1>
+<h1>
+        <%= @journal.title %>
+</h1>
+
+
 <p>Find me in app/views/journals/show.html.erb</p>
+
+
+
+<ul>
+    <li>Title: <%= @journal.title %></li>
+    <li>Story: <%= @journal.story %></li>
+
+
+</ul>
+
+
+
+
+
+<div class="controls">
+    <%= link_to "Edit journal entry", edit_journal_path(@journal) %>
+    <%= link_to "Delete journal entry", @journal, :method => "delete", :data => {:confirm => "Are you sure?"} %>
+
+</div>

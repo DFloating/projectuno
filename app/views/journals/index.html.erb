@@ -3,10 +3,11 @@
 
 <% @journals.each do |journal| %>
 
-<p>
-    <%= link_to journal.title, journals_show_path(journal.id) %>
+<h2>
+  <%=  journal.title %>  
+  <p> <%= journal.story %> </p>
 
 
-</p>
+</h2>
 
 <% end %>

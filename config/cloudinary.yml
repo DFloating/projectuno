@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: daqgduc2k
+  api_key: '837424624242859'
+  api_secret: uCQquERanHtpXekSw_mdXBQpULM
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: daqgduc2k
+  api_key: '837424624242859'
+  api_secret: uCQquERanHtpXekSw_mdXBQpULM
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: daqgduc2k
+  api_key: '837424624242859'
+  api_secret: uCQquERanHtpXekSw_mdXBQpULM
+  enhance_image_tag: true
+  static_file_support: false
