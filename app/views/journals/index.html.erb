@@ -4,7 +4,7 @@
 <% @journals.each do |journal| %>
 
 <h2>
-  <%=  journal.title %>  
+  <%= link_to journal.title, journal %>  
   <p> <%= journal.story %> </p>
 
 
