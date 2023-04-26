@@ -17,9 +17,11 @@
       <nav>
         <ul>
           <%=link_to "Signup", new_user_path, :class => "btn btn-danger" %>
+          <%= link_to "Sign in", users_path, :class => "btn btn-warning" %>
           <%= link_to "Home", root_path, :class => "btn btn-danger" %>
-           <button class="btn btn-warning" data-bs-toggle="button">Sign in</button></a>
            <button class="btn btn-warning" data-bs-toggle="button">Log out</button> 
+           <%= link_to "Create new post", journals_new_path, :class => "btn btn-info" %>
+           
         </ul> 
       </nav>
     </div>

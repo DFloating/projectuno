@@ -1,2 +1,12 @@
 <h1>Journals#index</h1>
 <p>Find me in app/views/journals/index.html.erb</p>
+
+<% @journals.each do |journal| %>
+
+<p>
+    <%= link_to journal.title, journals_show_path(journal.id) %>
+
+
+</p>
+
+<% end %>

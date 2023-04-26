@@ -2,11 +2,12 @@
 
 body {
     display: block;
-    background-color: orange;
+    background-color: slategrey;
+    
 }
 
 .container{
-    color: black;
+    color:whitesmoke;
 }
 
 .row {
