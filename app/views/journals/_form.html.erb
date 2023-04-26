@@ -2,14 +2,14 @@
 <%= form_for @journal do |f| %>
 
     <%= f.label :title %>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, class: "form-control-lg" %>
+
+     <%= f.label :image  %>
+    <%= f.text_field :image, class: "form-control-lg" %>
 
     <%= f.label :story %>
-    <%= f.text_field :story %>
+    <%= f.text_field :story, class: "form-control-lg", style: "height: 200px; width: 400px;" %>
 
-    <%= f.label :image  %>
-    <%= f.text_field :image %>
-
-    <%= f.submit %>
+    <%= f.submit class: "btn btn-outline-success", style: "padding-top: 10px;" %>
 
 <% end %>

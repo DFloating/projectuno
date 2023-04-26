@@ -1,23 +1,5 @@
-<h1>Journals#edit</h1>
+<h1>EditJournal Entry</h1>
 <p>Find me in app/views/journals/edit.html.erb</p>
 
-<form action="<%= edit_journal_path %>" method="post">
-    <label>
-        Title: 
-        <input name="text" required>
-    </label>
-    
-    <label>
-        Photo:
-        <input type="url" name="image">
-    </label>
+<%= render :partial => 'form' %>
 
-    <label>
-        Story:
-        <input type="text" name="story">
-    </label>
-
-
-
-    <button>Create journal entry</button>
-</form>
