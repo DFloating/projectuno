@@ -16,11 +16,11 @@
     <!-- <div class="btn-group"> -->
       <nav>
         <ul>
-          <%=link_to "Signup", new_user_path, :class => "btn btn-danger" %>
+          <%=link_to "Signup", new_user_path, :class => "btn btn-info" %>
           <%= link_to "Sign in", users_path, :class => "btn btn-warning" %>
-          <%= link_to "Home", root_path, :class => "btn btn-danger" %>
-           <button class="btn btn-warning" data-bs-toggle="button">Log out</button> 
-           <%= link_to "Create new post", new_journal_path, :class => "btn btn-info" %>
+           <button class="btn btn-warning" data-bs-toggle="button">Sign out</button> 
+           <%= link_to "Journal Feed", journals_path, :class => "btn btn-danger" %>
+           <%= link_to "Create new post", new_journal_path, :class => "btn btn-success" %>
            
         </ul> 
       </nav>

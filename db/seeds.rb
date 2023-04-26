@@ -13,8 +13,8 @@ puts "#{ User.count } users"
 
 Journal.destroy_all
 
-j1 = Journal.create :title => 'The Game Winner', :story => 'Step back jumper for the win'
-j2 = Journal.create :title => 'My Monstera', :story => 'My monstera is too big'
+j1 = Journal.create :title => 'The Game Winner', :story => 'Step back jumper for the win', :image => 'https://library.sportingnews.com/styles/crop_style_16_9_desktop_webp/s3/2021-08/kobe-bryants-game-winner-vs-portland-trail-blazers-in-2004_ml78lbvs63gk1fmtr5oauzqzp.jpeg.webp?itok=OiwOUd8g'
+j2 = Journal.create :title => 'My Monstera', :story => 'My monstera is too big', :image => 'https://oddspotplants.com.au/wp-content/uploads/2021/04/Variegated-Monstera-Deliciosa-Borsigiana.jpg'
 puts "#{ Journal.count } stories"
 
 Photo.destroy_all

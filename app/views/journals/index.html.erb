@@ -1,11 +1,14 @@
-<h1>Journals#index</h1>
+<h1>Journal Entries</h1>
 <p>Find me in app/views/journals/index.html.erb</p>
 
 <% @journals.each do |journal| %>
 
+
 <h2>
-  <%= link_to journal.title, journal %>  
-  <p> <%= journal.story %> </p>
+  <%= link_to journal.title, journal %> 
+    <p> <%= image_tag journal.image %></li> 
+    <p> <%= journal.story %> </p>
+
 
 
 </h2>

@@ -38,7 +38,7 @@ end
 private 
 
 def journal_params
-  params.require(:journal).permit(:title, :story)
+  params.require(:journal).permit(:title, :story, :image)
 end
 
 end
