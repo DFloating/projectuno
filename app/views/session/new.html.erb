@@ -1,10 +1,7 @@
-<h1>Session#newNote:</h1>
-<p>Find me in app/views/session/newNote:.html.erb</p>
-
-<h1>Login</h1>
+<h1 class="display-3">Welcome Back</h1>
 
 <% if flash[:error].present? %>
-    <h2><%= flash[:error] %></h2>
+    <h2 class="display-6"><%= flash[:error] %></h2>
 <% end %>
 <%= form_tag signin_path do %>
     <%= label_tag :email %>

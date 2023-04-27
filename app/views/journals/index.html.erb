@@ -1,17 +1,18 @@
 <h1>Journal Entries</h1>
-<p>Find me in app/views/journals/index.html.erb</p>
 
-
-
-
-<% @journals.each do |journal| %>
 <div class="image-container">
-<%= image_tag journal.image, :class => 'thumb' if journal.image.present? %>
+
+  <% @journals.each do |journal| %>
+
+    <%= image_tag journal.image, :class => 'thumb' if journal.image.present? %>
+
+  <% end %>
 </div>
 
+<% @journals.each do |journal| %>
 <h2>
   <%= link_to journal.title, journal %> 
-    <p> <%= image_tag journal.image %></li> 
+    <p> <%= image_tag journal.image %></p> 
     <p> <%= journal.story %> </p>
 
 

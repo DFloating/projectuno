@@ -13,3 +13,42 @@
  *= require_tree .
  *= require_self
  */
+
+ * {border: 1px solid rgb(108, 108, 108);}
+
+ .image-container {
+    display: flex;
+    /* grid-template-columns: repeat; */
+    gap: 0.75rem;
+    margin-top: 50px;
+} 
+
+.image-container img {
+    width: 300px;
+    height: 300px;
+    Border-radius: 1em;
+}
+
+body {
+    margin: 0 auto;
+    display: block;
+    background-color: slategrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+}
+
+.container {
+    color:whitesmoke;
+    max-width: 960px;
+    
+}
+
+.row {
+    color: whitesmoke;
+}
