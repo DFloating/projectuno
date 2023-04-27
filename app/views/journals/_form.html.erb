@@ -8,7 +8,7 @@
     <%= f.text_field :image, class: "form-control-lg" %>
 
     <%= f.label :story %>
-    <%= f.text_field :story, class: "form-control-lg", style: "height: 200px; width: 400px;" %>
+    <%= f.text_area(:story, size: '50x10') %>
 
     <%= f.submit class: "btn btn-outline-success", style: "padding-top: 10px;" %>
 
