@@ -1,10 +1,10 @@
-<h1>Journal Entries</h1>
+<h1 class="display-2">Journal Entries</h1>
 
 <div class="image-container">
 
   <% @journals.each do |journal| %>
 
-    <%= image_tag journal.image, :class => 'thumb' if journal.image.present? %>
+    <%= link_to image_tag(journal.image, :class => 'thumb'), journal %>
 
   <% end %>
 </div>
@@ -14,9 +14,9 @@
     <div class="journal">
       <div class="thumbnail">
         <div class="caption">
-         <h2><%= link_to journal.title, journal %></h2>
-            <p> <%= image_tag journal.image %></p> 
-            <p> <%= journal.story %> </p>
+         <h2 class="display-4"><%= link_to journal.title, journal %></h2>
+            <p> <%= link_to image_tag(journal.image, :class => 'feature'), journal %></p> 
+            <p class="lead"> <%= journal.story %> </p>
         </div>
       </div>
     </div>

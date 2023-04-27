@@ -1,21 +1,15 @@
-<h1>
+<h1 class="display-1">
         <%= @journal.title %>
 </h1>
 
-<p>Find me in app/views/journals/show.html.erb</p>
+     <p class="lead"><%= image_tag @journal.image %></p>
+<h2 class="display-4">Story:</h2>
+    <p class="lead"><%= @journal.story %></p>
 
-
-
-<ul>
-    <li>Title: <%= @journal.title %></li>
-     <li><%= image_tag @journal.image %></li>
-    <li>Story: <%= @journal.story %></li>
-
-</ul>
 
 
 <div class="controls">
-    <%= link_to "Edit journal entry", edit_journal_path(@journal) %>
-    <%= link_to "Delete journal entry", @journal, :method => "delete", :data => {:confirm => "Are you sure?"} %>
+    <%= link_to "Edit journal entry", edit_journal_path(@journal), :class => "btn btn-primary" %>
+    <%= link_to "Delete journal entry", @journal, :method => "delete", :data => {:confirm => "Are you sure?"}, :class => "btn btn-primary" %>
 
 </div>
