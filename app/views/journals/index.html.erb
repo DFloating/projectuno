@@ -9,14 +9,16 @@
   <% end %>
 </div>
 
-<% @journals.each do |journal| %>
-<h2>
-  <%= link_to journal.title, journal %> 
-    <p> <%= image_tag journal.image %></p> 
-    <p> <%= journal.story %> </p>
-
-
-
-</h2>
-
+<div class="journals">
+  <% @journals.each do |journal| %>
+    <div class="journal">
+      <div class="thumbnail">
+        <div class="caption">
+         <h2><%= link_to journal.title, journal %></h2>
+            <p> <%= image_tag journal.image %></p> 
+            <p> <%= journal.story %> </p>
+        </div>
+      </div>
+    </div>
 <% end %>
+</div>

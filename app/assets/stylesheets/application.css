@@ -18,10 +18,12 @@
 
  .image-container {
     display: flex;
-    /* grid-template-columns: repeat; */
+     grid-template-columns: repeat; 
     gap: 0.75rem;
-    margin-top: 50px;
-} 
+     margin-top: 50px;
+}  
+
+
 
 .image-container img {
     width: 300px;
