@@ -5,11 +5,11 @@ class UsersController < ApplicationController
     @users = User.all
   end
   
-  def new
+def new
     @user = User.new
-  end
+end
 
-  def create
+def create
     @user = User.new(user_params)                                   # new user object with user information from the form. 
 
     if @user.save                                                   #save to database
@@ -18,7 +18,7 @@ class UsersController < ApplicationController
     else 
       render :new                                                  #if unsuccessful, re-render the new view with errors
     end
-  end
+end
 
   private 
 

@@ -1,11 +1,11 @@
 
-<%= form_for @journal do |f| %>
+<%= form_for(@journal, :html => {:multipart => true}) do |f| %>
 
     <%= f.label :title %>
     <%= f.text_field :title, class: "form-control-lg" %>
 
-     <%= f.label :image  %>
-    <%= f.text_field :image, class: "form-control-lg" %>
+    <%= f.label :image  %>
+    <%= f.text_field :image, class: "form-control-lg" %>    
 
     <%= f.label :story %>
     <%= f.text_area(:story, size: '50x10') %>

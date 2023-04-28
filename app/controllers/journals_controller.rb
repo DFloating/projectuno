@@ -8,7 +8,7 @@ class JournalsController < ApplicationController
   end
 
   def create
-    journal = Journal.create journal_params
+    journal = Journal.create journal_params 
       redirect_to journals_path
   end
 
@@ -19,8 +19,7 @@ class JournalsController < ApplicationController
   def update
     #get the journal entry
     journal = Journal.find params[:id]
-    #update the journal from params
-    journal.update journal_params
+    journal.update(journal_params)
     # go to the show page for this journal
     redirect_to journal
 end
