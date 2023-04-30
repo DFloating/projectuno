@@ -1,4 +1,4 @@
-# Project Uno
+# Project Uno ☘️
 
 Inspiration: Humans of New York | Medium
 
