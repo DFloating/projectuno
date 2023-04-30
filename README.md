@@ -6,6 +6,7 @@ Inspiration: Humans of New York?? | Medium
  Users could upload a series of photographs that relate to a particular theme or topic or as a journal entry (e.g. family, work, hobbies), and then write accompanying text to provide context and narrative. 
 
 ## :computer: [Click here](#) to see my live project!
+- ![image](https://user-images.githubusercontent.com/128204174/235346738-3f487710-717d-42b0-afcc-2ddfd06616f6.png)
 
 ## :page_facing_up: About  -- to be updated
 - How to use my awesome project.
