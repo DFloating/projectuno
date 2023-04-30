@@ -1,24 +1,40 @@
-# README
+# Project Uno
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Inspiration: Humans of New York?? | Medium
 
-Things you may want to cover:
+ This web application would allow users to create photo essays that tell a larger story about their lives. 
+ Users could upload a series of photographs that relate to a particular theme or topic or as a journal entry (e.g. family, work, hobbies), and then write accompanying text to provide context and narrative. 
 
-* Ruby version
+## :computer: [Click here](#) to see my live project!
 
-* System dependencies
+## :page_facing_up: About  -- to be updated
+- How to use my awesome project.
+- Download instructions (if relevant):
+```zsh
+$ git clone my-awesome-app
+$ cd my-awesome-app
+$ node app.js
+```
+- Add in-app screenshots.
 
-* Configuration
+## :pencil2: Planning & Problem Solving
+- Insert screengrab of Figma plan 
 
-* Database creation
 
-* Database initialization
 
-* How to run the test suite
+## :rocket: Cool tech
+- Programming languages used - Ruby on Rails, CSS Bootstrap and HTML
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## :scream: Bugs to fix :poop:
+- Currently working on restricting access for users to be able to edit and delete journal entries
+- The original idea included the ability to have multiple photos to be uploaded onto a single journal post, however the photo model is currently inactive, meaning there is only capibility for users to upload a single photo
 
-* ...
+## :sob: Lessons learnt
+- Focus less on design and more on getting the model associations working, especially when working on a deadline :cry:
+
+## :white_check_mark: Future features
+- An ability for users to organise the placement of photos as they aesthetically please. 
+- The design of the website is constantly being updated so WATCH THIS SPACE.....
+
+
