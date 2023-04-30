@@ -18,7 +18,7 @@ $ node app.js
 - Add in-app screenshots.
 
 ## :pencil2: Planning & Problem Solving
-- Insert screengrab of Figma plan 
+- ![image](https://user-images.githubusercontent.com/128204174/235346570-cc619628-94d9-49e6-8eaf-e7fd5126bf54.png)
 
 
 
