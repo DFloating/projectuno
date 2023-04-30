@@ -1,6 +1,6 @@
 # Project Uno
 
-Inspiration: Humans of New York?? | Medium
+Inspiration: Humans of New York | Medium
 
  This web application would allow users to create photo essays that tell a larger story about their lives. 
  Users could upload a series of photographs that relate to a particular theme or topic or as a journal entry (e.g. family, work, hobbies), and then write accompanying text to provide context and narrative. 
