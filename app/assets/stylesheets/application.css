@@ -62,20 +62,46 @@ p {
   }
 
 
+/* Styles for the titles */
+.display-2 {
+    font-size: 4.5rem;
+    margin-bottom: 20px;
+  }
+
+.display-4 {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+  
+  /* Styles for the image container */
   .image-container {
     display: flex;
-     grid-template-columns: repeat; 
-    gap: 0.75rem;
-     margin-top: 50px;
-}  
-
-.image-container img {
-    width: 200px;
+    grid-template-columns: repeat; 
+    /* flex-wrap: wrap; */
+    gap: 20px;
+  }
+  
+  /* Styles for the thumbnail link */
+  .thumbnail-link {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .thumbnail-link:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Styles for the thumbnail image */
+  .thumb {
+    max-width: 100%;
     height: auto;
-    Border-radius: 1em;
-}
-
-.feature {
-    width: 25em;
-    height: auto;
-}
+    border-radius: 5px;
+  }
+  
